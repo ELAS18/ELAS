@@ -41,7 +41,7 @@ echo ""
 
 printf " scan ... "
 
-nmap -sV $ip
+nmap -v $ip
 
 echo "" 
 echo ""
